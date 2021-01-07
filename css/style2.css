@@ -1,0 +1,104 @@
+h1 {
+    font-size : 36px;
+    font-weight: 500;
+    margin-bottom: 20px;
+}
+
+p {
+    color : rgba(0,0,0,1);
+    font-size : 16px;
+    text-indent: 25px;
+    text-align: justify;
+    font-family: Verdana,sans-serif;
+    margin : 0;
+}
+
+.sub-content-isi {
+    margin-top : 30px;
+    margin-bottom: 40px;
+}
+
+.code {
+    background-color: rgba(0,0,0,0.67);
+    margin : 20px 10px;
+    padding : 20px;
+    border-left : 8px solid #B35A2A;
+    font-family: sans-serif;
+}
+
+.code p {
+    text-align: left;
+    text-indent: 0;
+    font-weight: 500;
+    font-size : 18px;
+    word-spacing: 4px;
+    color : #fff;
+}
+
+.code .hasil {
+    margin-top : 40px;
+    margin-bottom: 0;
+    font-size : 20px;
+}
+
+.code .btn-hasil a{
+    padding : 5px;
+    font-size : 20px;
+    border-width: 2px;
+    border-radius : 5px;
+}
+
+.code .btn-hasil a i {
+    margin-left : 10px;
+    font-size : 23px;
+}
+
+.code .hasil .output-hasil {
+     padding : 10px 10px 10px 0px;
+}
+
+.code .output-hasil a{
+    padding : 0;
+}
+
+.explain-header h4 {
+    font-size : 26px;
+}
+
+.explain p {
+    text-indent: 0;
+    margin-left : 25px;
+    font-size : 16px;
+    font-family: Verdana,sans-serif;
+    color : black;
+}
+
+.white {
+    color : #fff;
+}
+
+.red {
+    color : #FF2966;
+}
+
+.green {
+    color : darkgreen;
+}
+
+.greenYel {
+    color : #84FF6E;
+}
+
+.yellow {
+    color : #FFFA6D;
+}
+
+.coklat {
+    color : saddlebrown;
+}
+
+footer p {
+    font-size: 16px;
+    font-weight: 300;
+    margin-bottom: 10px;
+}

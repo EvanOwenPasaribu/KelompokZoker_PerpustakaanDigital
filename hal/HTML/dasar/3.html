@@ -1,0 +1,350 @@
+<!DOCTYPE html>
+<html lang = "id">
+<head>
+	<title>Tutorial HTML</title>
+	<!-- favicon -->
+    <link rel="shortcut icon" href="img/icon.png">
+
+    <!-- google fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Roboto+Condensed:300,300i,400,400i,700,700i" rel="stylesheet">
+
+    <!-- font Awesome -->
+    <link rel="stylesheet" href="../../../css/font-awesome/css/all.css">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="../../../css/bootstrap/bootstrap.min.css">
+
+    <!-- Animate -->
+    <link rel="stylesheet" href="../../../css/animate/animate.css">
+   
+    <!-- style CSS -->
+    <link rel="stylesheet" href="../../../css/style.css">
+    <link rel="stylesheet" href="../../../css/style2.css">
+    
+    <!-- Responsive CSS -->
+    <link rel="stylesheet" href="../../../css/responsive.css">
+
+</head>
+<body>
+    <div class="hitam"></div>
+    <header>
+        <nav class="navbar-page navbar navbar-fixed-top">
+            <div class="container-fluid">
+                <div class="kosan-nav-wrapper">
+                    <div class="navbar-header">
+                        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#kosan-menu">
+                            <span class="sr-only">Toggle Navigation</span>
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                        </button>
+                        <a href="../../../index.html" class="navbar-brand">
+                            <h2>CodingKosan</h2>
+                        </a>
+                    </div>
+
+                    <div class="collapse navbar-collapse" id="kosan-menu">
+                        <ul class="nav navbar-nav">
+                            <li><a href="../../../index.html"><i class="fas fa-home"></i> Home</a></li>
+                            <li><a href="../index_HTML.html"><i class="far fa-file-code"></i> HTML</a></li>
+                            <li><a href="#work"><i class="fab fa-css3-alt"></i> CSS</a></li>
+                            <li><a href="#team"><i class="fab fa-js"></i> JAVASCRIPT</a></li>
+                            <li><a href="#team"><i class="fab fa-js-square"></i> JQUERY</a></li>
+                            <li><a href="#testimonials"><i class="fab fa-php"></i> PHP</a></li>
+                            <li><a href="#pricing"><i class="fas fa-copyright"></i> BAHASA C</a></li>
+                            <li><a href="#stats"><i class="fas fa-code"></i> C++</a></li>
+                            <li><a href="#contact"><i class="fab fa-python"></i> PYTHON</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <section id="content">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="content-left col-md-8">
+                    <ol class="breadcrumb">
+                        <li><a href="../../../index.html">HOME</a></li>
+                        <li><a href="../index_HTML.html">TUTORIAL HTML</a></li>
+                        <li class="active">ELEMENT HTML</li>
+                    </ol>                    
+                    
+                    <div class="content-isi">
+                        <h1>HTML Dasar part 2 - Element HTML</h1>
+                        <div class="description">
+                            <p> Elemen HTML merupakan komponen yang menetapkan peran sebuah objek dalam dokumen, termasuk struktur dan konten dari objek tersebut. <br>                            
+                            Contoh : <br>
+                            &lt;h1&gt;,&lt;p&gt;, &lt;b&gt;, &lt;i&gt;<br>
+                            &lt;span&gt;,&lt;div&gt;, &lt;table&gt;<br>
+                            &lt;section&gt;,&lt;article&gt;, &lt;header&gt;<br><br>                            
+                            Akan ada beberapa elemen yang akan saya jelaskan di bawah ini.
+                            </p>
+                        </div>
+                        
+                        <div class="sub-content-isi">
+                            <div class="explain">
+                                <div class="explain-header">
+                                    <h4>1. Heading : </h4>
+                                </div>
+                                <div class="explain-text">
+                                    <p>
+                                        ada 6 element heading di dalam HTML<br>
+                                        &lt;h1&gt;,&lt;h2&gt;,&lt;h3&gt;,&lt;h4&gt;,&lt;h5&gt;,&lt;h6&gt;
+                                    </p>
+                                </div>
+                            </div>
+
+                            <div class="code">
+                                <p>
+                                    <span class="blue">&lt;</span><span class="red">!DOCTYPE html</span><span class="blue">&gt;</span><br>
+                                    <span class="blue">&lt;</span><span class="red">html</span><span class="blue">&gt;</span><br>
+                                    <span class="blue">&lt;</span><span class="red">head</span><span class="blue">&gt;</span><br>
+                                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="blue">&lt;</span><span class="red">title</span><span class="blue">&gt;</span>Heading<span class="blue">&lt;</span><span class="red">/title</span><span class="blue">&gt;</span><br>
+                                    <span class="blue">&lt;</span><span class="red">/head</span><span class="blue">&gt;</span><br>
+                                    <span class="blue">&lt;</span><span class="red">body</span><span class="blue">&gt;</span><br>
+                                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="blue">&lt;</span><span class="red">h1</span><span class="blue">&gt;</span>Heading pertama<span class="blue">&lt;</span><span class="red">/h1</span><span class="blue">&gt;</span><br>
+                                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="blue">&lt;</span><span class="red">h2</span><span class="blue">&gt;</span>Heading kedua<span class="blue">&lt;</span><span class="red">/h2</span><span class="blue">&gt;</span><br>
+                                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="blue">&lt;</span><span class="red">h3</span><span class="blue">&gt;</span>Heading ketiga<span class="blue">&lt;</span><span class="red">/h3</span><span class="blue">&gt;</span><br>
+                                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="blue">&lt;</span><span class="red">h4</span><span class="blue">&gt;</span>Heading keempat<span class="blue">&lt;</span><span class="red">/h4</span><span class="blue">&gt;</span><br>
+                                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="blue">&lt;</span><span class="red">h5</span><span class="blue">&gt;</span>Heading kelima<span class="blue">&lt;</span><span class="red">/h5</span><span class="blue">&gt;</span><br>
+                                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="blue">&lt;</span><span class="red">h6</span><span class="blue">&gt;</span>Heading keenam<span class="blue">&lt;</span><span class="red">/h6</span><span class="blue">&gt;</span><br>
+                                    <span class="blue">&lt;</span><span class="red">/body</span><span class="blue">&gt;</span><br>
+                                    <span class="blue">&lt;</span><span class="red">/html</span><span class="blue">&gt;</span><br>
+                                </p>
+
+                                <div class="hasil">
+                                    <div class="btn-hasil">
+                                        <a class="btn btn-success" href="#Collaps" data-toggle="collapse">Hasil<i class="far fa-caret-square-down"></i></a>
+                                    </div>
+
+                                    <div class="output-hasil collapse" id="Collaps">
+                                        <a href="../img/2.1.PNG"><img class="img-responsive" src="../img/2.1.PNG" alt="heading"></a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <div class="sub-content-isi">
+                            <div class="explain">
+                                <div class="explain-header">
+                                    <h4>2. Paragraf : </h4>
+                                </div>
+                                <div class="explain-text">
+                                    <p>
+                                        Untuk membuat paragraf pada halaman web, biasanya menggunakan elemen <span>&lt;</span>p<span>&gt;</span>
+                                    </p>
+                                </div>
+                            </div>
+
+                            <div class="code">
+                                <p>
+                                    <span class="blue">&lt;</span><span class="red">!DOCTYPE html</span><span class="blue">&gt;</span><br>
+                                    <span class="blue">&lt;</span><span class="red">html</span><span class="blue">&gt;</span><br>
+                                    <span class="blue">&lt;</span><span class="red">head</span><span class="blue">&gt;</span><br>
+                                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="blue">&lt;</span><span class="red">title</span><span class="blue">&gt;</span>Paragraf<span class="blue">&lt;</span><span class="red">/title</span><span class="blue">&gt;</span><br>
+                                    <span class="blue">&lt;</span><span class="red">/head</span><span class="blue">&gt;</span><br>
+                                    <span class="blue">&lt;</span><span class="red">body</span><span class="blue">&gt;</span><br>
+                                    
+                                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="blue">&lt;</span><span class="red">h1</span><span class="blue">&gt;</span>Heading<span class="blue">&lt;</span><span class="red">/h1</span><span class="blue">&gt;</span><br>
+                                    
+                                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="blue">&lt;</span><span class="red">p</span><span class="blue">&gt;</span>Ini adalah sebuah paragraf, main menu paragraf biasanya berada pada akhir paragraf atau di akhir paragraf<span class="blue">&lt;</span><span class="red">/p</span><span class="blue">&gt;</span><br>
+                                    
+                                    <span class="blue">&lt;</span><span class="red">/body</span><span class="blue">&gt;</span><br>
+                                    <span class="blue">&lt;</span><span class="red">/html</span><span class="blue">&gt;</span><br>
+                                </p>
+
+                                <div class="hasil">
+                                    <div class="btn-hasil">
+                                        <a class="btn btn-success" href="#Collaps2" data-toggle="collapse">Hasil<i class="far fa-caret-square-down"></i></a>
+                                    </div>
+
+                                    <div class="output-hasil collapse" id="Collaps2">
+                                        <a href="../img/2.2.PNG"><img class="img-responsive" src="../img/2.2.PNG" alt="heading"></a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div id="content-dasar" class="content-isi-item">
+                            <h2>Tutorial HTML Dasar Untuk Pemula</h2>
+                            <div class="content-title-underline"></div>
+                            <ul class=" list-group">
+                                <li class="list-group-item"><a href="1.html">1.Belajar HTML Dasar Part 1</a></li>
+                                <li class="list-group-item"><a href="#">2.Belajar HTML Dasar Part 2</a></li>
+                                <li class="list-group-item"><a href="#">3.Belajar HTML Dasar Part 3</a></li>
+                                <li class="list-group-item"><a href="#">4.Belajar HTML Dasar Part 4</a></li>
+                                <li class="list-group-item"><a href="#">5.Belajar HTML Dasar Part 5</a></li>
+                                <li class="list-group-item"><a href="#">6.Belajar HTML Dasar Part 6</a></li>
+                                <li class="list-group-item"><a href="#">7.Belajar HTML Dasar Part 7</a></li>
+                                <li class="list-group-item"><a href="#">8.Belajar HTML Dasar Part 8</a></li>
+                                <li class="list-group-item"><a href="#">9.Belajar HTML Dasar Part 9</a></li>
+                                <li class="list-group-item"><a href="#">10.Belajar HTML Dasar Part 10</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="content-kanan col-md-4">
+                    <div class="content-kanan-item panel-group" id="accordion">
+                        <h2>Menu Tutorial</h2>
+                        <div class="content-title-underline"></div>
+                        <!-- Panel #1 -->
+                        <div class="panel panel-default">
+                            <div class="panel-heading">
+                                <h4>
+                                    <a data-parent="#accordion" href="#Collapse1" data-toggle="collapse">#HTML<i class="far fa-caret-square-down"></i></a>
+                                </h4>
+                            </div>
+
+                            <div class="collapse" id="Collapse1">
+                                <div class="panel-body">
+                                    <ul>
+                                       <li><a href="../index_HTML.html#content-dasar"><i class="fas fa-angle-double-right"></i> Tutorial HTML Dasar</a></li>
+                                       <li><a href="../index_HTML.html#content-lanjutan"><i class="fas fa-angle-double-right"></i> Tutorial HTML Lanjutan</a></li>
+
+                                       <li><a href="../index_HTML.html#content-htmlTable"><i class="fas fa-angle-double-right"></i> Tutorial HTML Table</a></li>
+
+                                       <li><a href="../index_HTML.html#content-htmlForm"><i class="fas fa-angle-double-right"></i> Tutorial HTML Form</a></li>
+
+                                       <li><a href="../index_HTML.html#content-html5"><i class="fas fa-angle-double-right"></i> Tutorial HTML5</a></li>
+                                   </ul>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Panel #2 -->
+                        <div class="panel panel-default">
+                            <div class="panel-heading">
+                                <h4>
+                                    <a href="#Collapse2" data-toggle="collapse" data-parent="#accordion">#CSS<i class="far fa-caret-square-down"></i></a>
+                                </h4>
+                            </div>
+
+                            <div class="collapse" id="Collapse2">
+                                <div class="panel-body">
+                                    That Would be Body, you can whatever you want in it like a home
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Panel #3 -->
+                        <div class="panel panel-default">
+                            <div class="panel-heading">
+                                <h4>
+                                    <a href="#Collapse3" data-toggle="collapse" data-parent="#accordion">#Javascript<i class="far fa-caret-square-down"></i></a>
+                                </h4>
+                            </div>
+
+                            <div class="collapse" id="Collapse3">
+                                <div class="panel-body">
+                                    That Would be Body, you can whatever you want in it like a home
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Panel #4 -->
+                        <div class="panel panel-default">
+                            <div class="panel-heading">
+                                <h4>
+                                    <a href="#Collapse4" data-toggle="collapse" data-parent="#accordion">#JQuery<i class="far fa-caret-square-down"></i></a>
+                                </h4>
+                            </div>
+
+                            <div class="collapse" id="Collapse4">
+                                <div class="panel-body">
+                                    That Would be Body, you can whatever you want in it like a home
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Panel #5 -->
+                        <div class="panel panel-default">
+                            <div class="panel-heading">
+                                <h4>
+                                    <a href="#Collapse5" data-toggle="collapse" data-parent="#accordion">#PHP<i class="far fa-caret-square-down"></i></a>
+                                </h4>
+                            </div>
+
+                            <div class="collapse" id="Collapse5">
+                                <div class="panel-body">
+                                    That Would be Body, you can whatever you want in it like a home
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Panel #6 -->
+                        <div class="panel panel-default">
+                            <div class="panel-heading">
+                                <h4>
+                                    <a href="#Collapse6" data-toggle="collapse" data-parent="#accordion">#Bahasa C<i class="far fa-caret-square-down"></i></a>
+                                </h4>
+                            </div>
+
+                            <div class="collapse" id="Collapse6">
+                                <div class="panel-body">
+                                    That Would be Body, you can whatever you want in it like a home
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Panel #6 -->
+                        <div class="panel panel-default">
+                            <div class="panel-heading">
+                                <h4>
+                                    <a href="#Collapse7" data-toggle="collapse" data-parent="#accordion">#C++<i class="far fa-caret-square-down"></i></a>
+                                </h4>
+                            </div>
+
+                            <div class="collapse" id="Collapse7">
+                                <div class="panel-body">
+                                    That Would be Body, you can whatever you want in it like a home
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Panel #6 -->
+                        <div class="panel panel-default">
+                            <div class="panel-heading">
+                                <h4>
+                                    <a href="#Collapse8" data-toggle="collapse" data-parent="#accordion">#Kotlin<i class="far fa-caret-square-down"></i></a>
+                                </h4>
+                            </div>
+
+                            <div class="collapse" id="Collapse8">
+                                <div class="panel-body">
+                                    That Would be Body, you can whatever you want in it like a home
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <footer>
+        <p class="text-center">Copyright ©2019 Evan Owen Pasaribu</p>
+        <a href="#content" id="back-to-top" class="btn btn-sm btn-back-to-top smooth-scroll hidden-sm hidden-xs" title="home" role="button">
+            <i class="fa fa-angle-up"></i>
+        </a>
+    </footer>
+    
+    <div id = "divcontent"></div>
+
+    <!-- jquery -->
+    <script src="../../../js/jquery.js"></script>
+
+    <!-- Bootstrap Js -->
+    <script src="../../../js/bootstrap/bootstrap.min.js"></script>
+
+    <!-- Wow.js -->
+    <script src="../../../js/wow/wow.min.js"></script>
+
+    <!-- Easing -->
+    <script src="../../../js/easing/jquery.easing.1.3.js"></script>
+
+    <!-- custom JS -->
+    <script src="../../../js/custom.js"></script>
+</body>
+</html> 

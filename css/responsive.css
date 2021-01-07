@@ -1,0 +1,125 @@
+/*****************************************************
+                Boostrap 3 Media Queries
+*****************************************************/
+
+/*Large Device (Dekstop & Laptops) */
+
+@media (min-width : 1200px) {
+    /*OK*/
+}
+
+
+/*Medium Device (Lanscape Tablets & Medium Dekstop) */
+@media (min-width : 992px) and (max-width : 1199px) {
+
+    /*mobile menu */
+    .navbar {
+        background: rgba(0, 0, 0, 0.9);
+        padding: 0;
+    }
+
+    ul.nav.navbar-nav {
+        float: left;
+    }
+
+    .kosan-nav-wrapper {
+        padding: 0;
+    }
+    
+    /*content*/
+    #content {
+        margin-top: 30px;
+        padding-top :20px;
+    }
+}
+
+/*Small Device (Potrait Tablets & Small Dekstop) */
+@media (min-width : 768px) and (max-width : 991px) {
+
+    /*mobile menu */
+    .navbar {
+        background: rgba(0, 0, 0, 0.9);
+        padding: 0;
+    }
+
+    ul.nav.navbar-nav {
+        float: left;
+    }
+
+    .kosan-nav-wrapper {
+        padding: 0;
+    }
+    
+    .content-kanan-item {
+        background-color: white;
+        padding: 0;
+        margin-bottom: 40px;
+    }
+    
+    /*content*/
+    #content {
+        margin-top: 30px;
+        padding-top :20px;
+    }
+}
+
+/*Extra Small Device (lanscape Phones & Potrait Tablet) */
+@media (max-width : 767px) {
+
+    /*mobile menu */
+    .navbar {
+        background: rgba(0, 0, 0, 0.9);
+        padding: 0;
+    }
+
+    ul.nav.navbar-nav {
+        float: left;
+    }
+
+    .kosan-nav-wrapper {
+        padding: 0;
+    }
+
+    /*home*/
+    #home-content-box h3 {
+        font-size: 30px;
+    }
+
+    /*button*/
+    .btn-general {
+        padding: 10px 12px;
+        font-size: 16px;
+    }
+    
+    .content-kanan-item {
+        background-color: white;
+        padding: 0;
+        margin-bottom: 40px;
+    }
+    
+    .content-isi h1 {
+        font-size : 40px;
+        font-weight : 500;
+    }
+    
+    .content-isi h2 {
+        font-size : 35px;
+    }
+    
+    /*content*/
+    #content {
+        margin-top: 30px;
+        padding-top :20px;
+    }
+    
+}
+
+/*Extra Small Device (Smaller Devidet) */
+@media (max-width : 480px) {
+    /*ok*/
+}
+
+/*Extra Small Device (Smaller Devidet) */
+@media (max-width : 320px) {
+
+}
